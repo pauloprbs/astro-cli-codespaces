@@ -1,9 +1,7 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bookworm",
-    "features": {
-        "ghcr.io/astronomer/devcontainer-features/astro-cli:1": {
-          "version": "v1.28.1"
-        }
-    },
-    "forwardPorts": [8080]
-  }
+	"name": "Codespace for Astro CLI",
+	"image": "mcr.microsoft.com/devcontainers/universal", // <-- Imagem muito grande
+	"features": {
+		"ghcr.io/astronomer/devcontainer-features/astro-cli:1": {}
+	}
+}
